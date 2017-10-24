@@ -165,19 +165,19 @@ $FavStateRB
              <select name=\"MAColor\" id=\"MAColor\" size=\"7\">\n";
   if (!isset($MAColor)) $MAColor = '';
   if ($MAColor == 'Red') { $SelectedSlug = "selected "; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"Red\" style=\"background-color: red;\" $SelectedSlug>Red</option>\n";
+  $TheForm .= "              <option value=\"Red\"  $SelectedSlug>Red</option>\n";
   if ($MAColor == 'Orange') { $SelectedSlug = "selected "; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"Orange\" style=\"background-color: orange;\" $SelectedSlug>Orange</option>\n";
+  $TheForm .= "              <option value=\"Orange\"  $SelectedSlug>Orange</option>\n";
   if ($MAColor == 'Yellow') { $SelectedSlug = "selected "; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"Yellow\" style=\"background-color: yellow;\" $SelectedSlug>Yellow</option>\n";
+  $TheForm .= "              <option value=\"Yellow\"  $SelectedSlug>Yellow</option>\n";
   if ($MAColor == 'Green') { $SelectedSlug = "selected"; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"Green\" style=\"background-color: green;\"  $SelectedSlug>Green</option>\n";
+  $TheForm .= "              <option value=\"Green\"   $SelectedSlug>Green</option>\n";
   if ($MAColor == 'Blue') { $SelectedSlug = "selected"; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"Blue\" style=\"color:white; background-color: blue;\"  $SelectedSlug>Blue</option>\n";
+  $TheForm .= "              <option value=\"Blue\"   $SelectedSlug>Blue</option>\n";
   if ($MAColor == 'Indigo') { $SelectedSlug = "selected"; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"indigo\" style=\"color:white; background-color: indigo;\"  $SelectedSlug>Indigo</option>\n";
+  $TheForm .= "              <option value=\"indigo\"   $SelectedSlug>Indigo</option>\n";
   if ($MAColor == 'Violet') { $SelectedSlug = "selected"; } else { $SelectedSlug = ''; }
-  $TheForm .= "              <option value=\"violet\" style=\"background-color: violet;\"  $SelectedSlug>Violet</option>
+  $TheForm .= "              <option value=\"violet\"   $SelectedSlug>Violet</option>
             </select>
         </div>\n";
 
